@@ -1,2 +1,2 @@
 # ENSAino-100A
- The ENSAino-100A is an open source development board. Based on the ATmega 2561 microcontroller.
+The ENSAino-100A is an open source development board. Based on the ATmega 2561 microcontroller. The device includes isolated power supplies, digital input ports (wiegand, magnetic sensors, pushbuttons), analog ports (NTC and touchpad), digital output ports (2x relay), serial ports (RS-232 and isolated RS-485) , Radio Frequency Module (433 MHz), Ethernet 10 base T (ENC28J60), RTC (DS 1307), 16x2 LCD Display, LED's and expansion ports.
