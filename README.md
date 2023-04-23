@@ -34,7 +34,7 @@ Your code should now be running on the microcontroller!
 
 ## Pinout 
 #### ATmega2561 (64-pin chip)
-Since there are no standardized Arduino pinout for this chip family, **MCUdude** created one tried to make it as simple and logical as possible. The standard LED pin is assigned to Arduino **pin 13 (PB5)**, However, on the ENSAino-100A it is on the LED **LD5**, and will blink twice if you hit the reset button.
+Since there are no standardized Arduino pinout for this chip family, **MCUdude** created one tried to make it as simple and logical as possible. The standard LED pin is assigned to Arduino **pin 13 (PB5)**, However, on the ENSAino-100A it is on the **LED LD5**, and will blink twice if you hit the reset button.
 
 <p align="center">
   <img src="https://i.imgur.com/sweRJs3.jpg" width="350">
