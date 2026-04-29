@@ -1,30 +1,77 @@
 # ENSAino-100A
 
-<!-- ENSA-AUDIT-README:START -->
+## 🇧🇷 PT-BR
+
+### Visão Geral
+
+O **ENSAino-100A** reúne os arquivos de hardware da placa ENSAino 100A, incluindo esquemático, PCB, BOM, documentação de fabricação e arquivos Gerber.
+
+O objetivo do repositório é manter a base técnica da placa organizada para fabricação, revisão elétrica e manutenção do hardware.
+
+### Funcionalidades
+
+- Documentação de esquemático e layout de PCB.
+- Arquivos Gerber para fabricação.
+- Lista de materiais e documentação de apoio.
+- Referência para montagem, revisão e rastreabilidade da placa.
+
+### Estrutura
+
+- `ENSAino100APCB/`: arquivos de projeto eletrônico, fabricação e documentação.
+- `LICENSE`: licença do repositório.
+
+### Validação
+
+1. Revise o esquemático antes de solicitar fabricação.
+2. Confira a BOM contra os componentes disponíveis.
+3. Valide os arquivos Gerber no visualizador da fabricante.
+4. Registre versão de placa e lote de fabricação.
+
+### Pontos de Atenção
+
+- Conferir nomes e versões dos arquivos de fabricação antes de enviar para produção.
+- Manter histórico de revisão da placa junto à documentação.
+- Criar firmware de bring-up quando uma nova revisão de hardware for fabricada.
+
+### Licença
+
+Consulte o arquivo `LICENSE` deste repositório.
 
 ---
 
-## 🔍 Visao Geral Tecnica
+## 🇺🇸 English
 
-Projeto de hardware/documentacao com esquematico P-CAD, PCB, BOM, PDFs e pacote Gerber.
+### Overview
 
-## 🛠 Status da Auditoria
+**ENSAino-100A** contains the hardware files for the ENSAino 100A board, including schematic, PCB, BOM, manufacturing documentation, and Gerber files.
 
-- ✅ Artefatos de hardware analisados.
-- ⚠️ Nenhuma alteracao aplicada, pois mudancas em PCB/BOM exigem ferramenta EDA e validacao fisica.
-- 📦 O pacote Gerber usa nomes `PCU-IOT-100A`, diferentes do nome do projeto.
+The repository keeps the board technical base organized for manufacturing, electrical review, and hardware maintenance.
 
-## ⚠️ Pontos de Atencao
+### Features
 
-- Conferir se BOM, PDF, PCB e Gerber representam exatamente a mesma revisao.
-- Revisar metadados de fonte `3V3` herdados de simbolo antigo.
-- Conferir componente de memoria com valor `24LC512` e referencia original `AT25FS010`.
-- Adicionar documentacao de fabricacao com stackup, cobre, acabamento e tolerancias.
+- Schematic and PCB layout documentation.
+- Gerber files for manufacturing.
+- Bill of materials and support documentation.
+- Reference material for assembly, review, and board traceability.
 
-## 🚀 Proximos Passos
+### Structure
 
-1. Regenerar Gerbers com nome/revisao `ENSAino-100A`.
-2. Criar `MANUFACTURING.md` com checklist de fabricacao.
-3. Adicionar firmware minimo de bring-up para validar placa.
+- `ENSAino100APCB/`: electronic project, manufacturing, and documentation files.
+- `LICENSE`: repository license.
 
-<!-- ENSA-AUDIT-README:END -->
+### Validation
+
+1. Review the schematic before requesting manufacturing.
+2. Check the BOM against available components.
+3. Validate Gerber files with the manufacturer viewer.
+4. Record board revision and manufacturing batch.
+
+### Notes
+
+- Check manufacturing file names and versions before production.
+- Keep board revision history with the documentation.
+- Create bring-up firmware when a new hardware revision is manufactured.
+
+### License
+
+See the `LICENSE` file in this repository.
