@@ -75,3 +75,16 @@ The repository keeps the board technical base organized for manufacturing, elect
 ### License
 
 See the `LICENSE` file in this repository.
+
+### Auditoria / Audit
+#### PT-BR
+- O maior ganho ainda vem de reduzir String e alocacao dinamica nos caminhos mais frequentes.
+- Vale centralizar contrato de protocolo, limites de buffer e configuracao persistida.
+- Revisar estados paralelos e variantes legadas para evitar manutencao duplicada.
+- Prioridade pratica: manter o caminho critico simples, previsivel e com menos heap.
+#### EN
+- The biggest remaining win is to reduce String and dynamic allocation in the hottest paths.
+- Keep the protocol contract, buffer limits and persisted configuration centralized.
+- Review parallel states and legacy variants to avoid duplicate maintenance.
+- Practical priority: keep the critical path simple, predictable and with less heap pressure.
+
